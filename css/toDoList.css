@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.esteban {
+    font-family: 'Esteban', serif;
+}
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(7, 70, 143);
+    background-color: darkslategray;
+}
+
+h1 {
+    font-family: monospace;
+    color: white;
+    margin: 2%;
+}
+
+.mainInput {
+    width: 550px;
+    height: 50px;
+    margin: 5px 5px 20px;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.botonAgregar {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    color: white;
+
+}
+
+.botonAgregar:hover {
+    opacity: 0.9;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.itemInput {
+    width: 300px;
+    height: 50px;
+    padding: 0 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    background: none;
+}
+
+.botonEditar {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border: none;
+    background: none;
+    color: #62d0ff;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botonRemover {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    font-size: 20px;
+    color: white;
+}
+
+.copyright {
+    margin-top: auto;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: white;
+}
