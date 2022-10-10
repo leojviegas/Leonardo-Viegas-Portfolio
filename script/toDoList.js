@@ -16,6 +16,7 @@ class Item {
         itemInput.setAttribute("type", "text");//seteo atributos y clase
         itemInput.setAttribute("disabled", "true");
         itemInput.classList.add("itemInput");
+        itemInput.classList.add("montserrat");
         itemInput.setAttribute("value", nuevaTarea);
 
         let botonEditar = document.createElement("button") //creo boton editar
