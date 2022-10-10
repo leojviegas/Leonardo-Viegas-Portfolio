@@ -42,8 +42,13 @@ h1 {
     width: 30%;
     max-width: 400px;
     min-width: 280px;
+    margin: 0 0 0 10px;
+
 }
 
+#botonEnviar {
+    margin: 0 10px ;
+}
 
 button,
 input {
