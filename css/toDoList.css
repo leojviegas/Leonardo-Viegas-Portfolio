@@ -3,16 +3,20 @@
     margin: 0;
     padding: 0;
 }
+
 .esteban {
     font-family: 'Esteban', serif;
 }
+
 .montserrat {
     font-family: 'Montserrat', sans-serif;
 }
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
     height: 100vh;
     background-color: rgb(7, 70, 143);
     background-color: darkslategray;
@@ -20,13 +24,26 @@ body {
 
 h1 {
     color: white;
-    margin: 2%;
+    margin: 3% 0;
+    width: 50%;
+    text-align: center;
+
+}
+
+.inputDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-wrap: nowrap;
+
 }
 
 .mainInput {
-    width: 550px;
+    width: 80%;
+    min-width: 270px;
     height: 50px;
-    margin: 5px 5px 20px;
+    margin: 10px;
     padding: 0px 20px;
     border: none;
     border-radius: 10px;
@@ -36,8 +53,9 @@ h1 {
 
 .botonAgregar {
     width: 50px;
+    min-width: 50px;
     height: 50px;
-    margin: 5px;
+    margin: 10px;
     border: none;
     border-radius: 10px;
     background-color: rgb(255, 6, 46);
@@ -52,16 +70,22 @@ h1 {
 .container {
     display: flex;
     flex-direction: column-reverse;
+    width: 100%;
+    align-items: center;
 }
 
 .item {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    width: 50%;
+    flex-wrap: nowrap;
 }
 
 .itemInput {
-    width: 300px;
+    min-width: 150px;
+    width: 30%;
     height: 50px;
     padding: 0 20px;
     border: 1px solid white;
@@ -73,6 +97,7 @@ h1 {
 
 .botonEditar {
     width: 50px;
+    min-width: 50px;
     height: 50px;
     margin: 0 5px;
     border: none;
@@ -84,6 +109,7 @@ h1 {
 
 .botonRemover {
     width: 50px;
+    min-width: 50px;
     height: 50px;
     margin: 0 5px;
     border: none;
