@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 .esteban {
@@ -15,26 +15,38 @@
 }
 
 
-.hr{ /* div */
+.hr {
+    /* div */
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: center;
 }
-hr{
+
+hr {
     width: 80%;
     margin-bottom: 60px;
 }
-.fotoConPortada{
+
+.fotoConPortada {
     display: flex;
     align-items: center;
 }
 
-.miNombre{
-    font-size: 5vw;
-    width: 650px;
+.containerTitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+
+.miNombre {
+    width: 50vw;
+    padding: 8px 0;
+}
+.miFoto {
+    border-radius: 50%;
+}
 
 body {
     font-size: 20px;
@@ -48,9 +60,7 @@ body {
     z-index: 1;
 }
 
-.miFoto {
-    border-radius: 50%;
-}
+
 
 .no-style {
     color: rgb(19, 7, 7);
@@ -82,8 +92,9 @@ h1 {
 .acercaDeMi {
     text-align: center;
     padding: 0 25% 5%;
-    
+
 }
+
 .margin2 {
     padding: 2%;
 }
@@ -111,6 +122,7 @@ h1 {
     margin: auto;
     min-width: 350px;
 }
+
 .form-label {
     margin: 14px 0 4px;
 }
@@ -124,9 +136,10 @@ p {
     overflow-wrap: break-word;
 }
 
-.margin50{
+.margin50 {
     margin: 50px 0;
 }
+
 .card {
     background-color: lightblue;
     border: none;
@@ -147,9 +160,10 @@ p {
     color: white;
 }
 
-.card-text{
+.card-text {
     font-size: 1.2rem;
 }
+
 .redes {
     width: 75px;
     height: 75px;
@@ -158,48 +172,55 @@ p {
 .padding15 {
     padding: 15px;
 }
+
 .footerRow {
     padding: 20px;
 }
-.subtitulo{
-    font-size: 25px;
-}
 
-.margin50{
+
+.margin50 {
     margin: 0;
     padding: 50px 0;
 }
+
 .botonForm {
     background-color: #A9EAF4;
     border: 1px solid rgb(143, 143, 143);
-    color:  black;
+    color: black;
     font-family: "Montserrat";
 }
 
 .botonForm:hover {
-    background-color: #7dabb3 !important; 
+    background-color: #7dabb3 !important;
     border: 1px solid rgb(143, 143, 143) !important;
     font-family: "Montserrat";
 }
+
 /*colores*/
 .color1 {
     background-color: #A9EAF4;
 }
+
 .color2 {
     background-color: #B5EDF5;
 }
+
 .color3 {
     background-color: #C1F0F7;
 }
+
 .color4 {
     background-color: #CDF3F8;
 }
+
 .color5 {
     background-color: #D8F5FA;
 }
+
 .color6 {
     background-color: #E4F8FB;
 }
+
 .color7 {
     background-color: #F0FBFD;
 }
