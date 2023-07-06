@@ -1,3 +1,5 @@
+let yearSpan = document.getElementById("yearSpan")
+
 function cuantoParaSabado() {
     let h2 = document.querySelector("h2")
     let date = new Date()
@@ -14,4 +16,11 @@ function cuantoParaSabado() {
         h2.innerHTML = "YA ES SÁBADO"
     }
 }
+
+function updateYear() {
+    const currentYear = new Date().getFullYear();
+    yearSpan.innerHTML = currentYear
+}
+
 cuantoParaSabado()
+updateYear()
