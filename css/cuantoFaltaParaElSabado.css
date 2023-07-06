@@ -1,0 +1,90 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+@font-face {
+   font-family: 'ImpactBold';
+   src: url(../assets/fonts/Impact-Font/impact.ttf) format('truetype')
+}
+
+
+html {
+   font-size: 16%;
+
+}
+
+body {
+   background-color: #a81a0e;
+   height: 100%;
+   font-size: 16%;
+
+
+}
+
+#nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#divh1 {
+   font-family: 'Roboto', sans-serif;
+   text-shadow: 5px 5px 2px #000000, 2px 2px 1px #000000, -2px -2px 1px #000, 2px -2px 1px #000, -2px 2px 1px #000;
+   font-style: italic;
+   font-size: 1.5vw;
+   color: #d3d5d2;
+   margin: 2% 5%;
+   text-indent: 2%;
+}
+
+#divimg {
+   margin: 2% 5%;
+}
+
+#img {
+   width: 14vw
+}
+
+
+#h2 {
+   font-family: 'ImpactBold', sans-serif;
+   font-size: 12vh;
+   
+   letter-spacing: 5px;
+   color: white;
+   text-shadow: 7px 7px #000000, -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000;
+   text-align: center;
+   animation: toggleOpacity 2s infinite;
+
+   margin: 8% 15%;
+   height: 50%;
+   /* overflow: hidden; */
+   /* border: 2px solid black; */
+}
+
+
+
+
+@keyframes toggleOpacity {
+   0% {
+      opacity: 100%;
+   }
+
+   49% {
+      opacity: 100%;
+   }
+
+   50% {
+      opacity: 0%;
+   }
+
+   99% {
+      opacity: 0%;
+   }
+}
